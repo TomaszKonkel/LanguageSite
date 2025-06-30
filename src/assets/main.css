@@ -1,0 +1,72 @@
+body {
+  background-color: #f9fafb; /* bardzo jasny szary */
+  color: #2e2e2e; /* ciemny szary dla tekstu */
+  margin: 0;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+main {
+  margin-Top: 5rem;
+  padding: 2rem;
+  background-color: #f9fafb;
+}
+
+a {
+  color: #2e2e2e;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  -webkit-tap-highlight-color: transparent; /* dla Chrome, Safari, Android */
+  /* -webkit-text-fill-color: transparent;         dla innych */
+}
+
+a:hover {
+  color: #003d7a; /* trochę ciemniejszy odcień niebieskiego */
+}
+
+/* Pseudo-element pod linkami - animacja podkreślenia */
+a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #005BAC;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+/* Reset marginesów, paddingów w li */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  /* Wyłącz podkreślenie tylko dla linków w mobilnym menu */
+  .nav-links a::after {
+    display: none;
+  }
+
+  /* Styl linków w mobilnym menu (blok, padding, tło na tap) */
+  .nav-links a {
+    display: block;
+    padding: 0.75rem 1rem;
+    border-radius: 30px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Tło i kolor przy tapnięciu/focusie */
+  .nav-links a:active,
+  .nav-links a:focus {
+    background-color: #e5f1fb;
+    color: #003d7a;
+    outline: none; /* usuń domyślną obwódkę focus */
+  }
+}
