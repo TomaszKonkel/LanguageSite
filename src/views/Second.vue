@@ -126,6 +126,7 @@
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  animation: fadeInUp 1s ease forwards;
 }
 
 .feature-card {
@@ -136,7 +137,6 @@
   text-align: center;
   width: 30%;
   transition: transform 0.3s;
-  animation: fadeInUp 1s ease forwards;
 }
 
 .feature-card:hover {
