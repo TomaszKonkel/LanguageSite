@@ -85,7 +85,7 @@ onBeforeUnmount(() => {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.5rem;
     position: relative;
 }
 
