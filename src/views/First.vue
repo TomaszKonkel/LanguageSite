@@ -15,7 +15,7 @@
       </div>
     </main>
     <section class="intro-wrapper">
-      <div class="intro-text fade-in">
+      <div class="intro-text">
         <h2>Otwórz drzwi do świata języków</h2>
         <p>
           W naszej szkole językowej uczysz się nie tylko słów, ale przede wszystkim komunikacji i kultury.

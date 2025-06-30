@@ -136,6 +136,7 @@
   text-align: center;
   width: 30%;
   transition: transform 0.3s;
+  animation: fadeInUp 1s ease forwards;
 }
 
 .feature-card:hover {
@@ -161,6 +162,13 @@
 
 .cta-button:hover {
   background-color: #254eda;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 768px) {
