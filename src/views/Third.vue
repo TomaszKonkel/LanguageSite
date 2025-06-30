@@ -54,11 +54,11 @@ const flags = [
   },
   {
    src: "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
-    greeting: "Welcome!",
+    greeting: "Välkommen!",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
-    greeting: "Välkommen!",
+    greeting: "Welcome!",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
