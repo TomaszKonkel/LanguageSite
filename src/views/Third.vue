@@ -140,7 +140,7 @@ const getMaskStyle = (index, flag) => {
   justify-content: space-between;
   gap: 30px;
   width: 75%;
-  margin: -100px auto 40px;
+  margin: -75px auto 40px;
   position: relative;
   z-index: 2;
   flex-shrink: 0;

@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar"  ref="menuRef">
+    <nav class="navbar" ref="menuRef">
         <div class="container">
             <div class="logo">LinguaPlus
             </div>
@@ -60,8 +60,8 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .navbar {
-    background-color: transparent;
-    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
@@ -85,6 +85,7 @@ onBeforeUnmount(() => {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 1rem;
     position: relative;
 }
 
